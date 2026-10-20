@@ -1,0 +1,17 @@
+.venv/
+.env
+data/
+__pycache__/
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+*.pyc
+*.tsbuildinfo
+eval/results.local.json
+eval/results.agents.local.json
+
+# Personal study / interview notes (kept local)
+docs/INTERVIEW.zh-CN.md
+docs/STUDY_ROADMAP.zh-CN.md
+docs/LEARNING_PATH.zh-CN.md
+docs/AGENT_UPGRADE_PLAN.zh-CN.md

@@ -1,0 +1,42 @@
+{
+  "retrieval": [
+    {"query":"第一次养蜂，引入蜂群前该学习什么？","relevant":["start-preparation"]},
+    {"query":"完全零经验，我应该先准备哪些东西？","relevant":["start-preparation","protective-equipment"]},
+    {"query":"蜂群还没到，什么时候做准备？","relevant":["start-preparation"]},
+    {"query":"面罩和手套分别需要注意哪些地方？","relevant":["protective-equipment"]},
+    {"query":"新手个人防护装备有哪些？","relevant":["protective-equipment"]},
+    {"query":"为什么防蜂面罩不能贴脸？","relevant":["protective-equipment"]},
+    {"query":"购买蜂箱和巢框时怎样匹配规格？","relevant":["hive-equipment"]},
+    {"query":"活动巢框和蜂路有什么关系？","relevant":["hive-equipment"]},
+    {"query":"蜂场选址要考虑水源和挡风吗？","relevant":["apiary-site"]},
+    {"query":"蜂箱放在潮湿地面有什么要考虑的？","relevant":["apiary-site"]},
+    {"query":"养蜂场地怎么兼顾邻里和人员？","relevant":["apiary-site","site-access"]},
+    {"query":"蜜源植物开花时间为什么影响开始养蜂？","relevant":["season-forage"]},
+    {"query":"美国资料里的春季月份能直接用于杭州吗？","relevant":["season-forage"]},
+    {"query":"花粉和花蜜在蜂群生长中起什么作用？","relevant":["feeding-principles","season-forage"]},
+    {"query":"人工饲喂能完全替代天然花粉吗？","relevant":["feeding-principles"]},
+    {"query":"储粮和当地蜜源如何影响饲喂？","relevant":["feeding-principles"]},
+    {"query":"为什么蜂场需要考虑运输和通道？","relevant":["site-access"]},
+    {"query":"天气预报能直接决定开箱吗？","relevant":["inspection-context"]},
+    {"query":"明天检查蜂箱前要记录哪些信息？","relevant":["inspection-context"]},
+    {"query":"做完上次计划如何记录反馈？","relevant":["followup-records"]},
+    {"query":"用户说完成任务是否代表蜂群改善？","relevant":["followup-records"]},
+    {"query":"复查时怎样区分观察事实和历史建议？","relevant":["followup-records"]},
+    {"query":"新手开箱需要什么工具以及现场天气？","relevant":["protective-equipment","inspection-context"]},
+    {"query":"准备养蜂，如何了解当地食物供应？","relevant":["season-forage","feeding-principles"]}
+  ],
+  "routing": [
+    {"query":"我完全不会养蜂，想先养一箱","intent":"onboarding","weather":false},
+    {"query":"新手入门应该准备什么","intent":"onboarding","weather":false},
+    {"query":"我想开始养蜂","intent":"onboarding","weather":false},
+    {"query":"明天能开箱检查吗","intent":"inspection","weather":true},
+    {"query":"检查前需要记录什么","intent":"inspection","weather":false},
+    {"query":"今天适合检查蜂箱吗","intent":"inspection","weather":true},
+    {"query":"我做完了上次的准备","intent":"followup","weather":false},
+    {"query":"上次计划还有哪些没完成","intent":"followup","weather":false},
+    {"query":"记录今天的执行反馈","intent":"followup","weather":false},
+    {"query":"给我列一份准备清单","intent":"plan","weather":false},
+    {"query":"花粉有什么作用","intent":"general","weather":false},
+    {"query":"我想查询杭州天气","intent":"general","weather":true}
+  ]
+}

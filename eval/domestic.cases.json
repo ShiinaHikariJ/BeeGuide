@@ -1,0 +1,29 @@
+{
+  "description": "新增国内资料的内部检索回归题；由项目编写，未经过领域专家独立标注。保留原 24 题，另报该分组结果。",
+  "retrieval": [
+    {"query": "入冬前要怎样核对蜂群储粮？", "relevant": ["cn-winter-food"]},
+    {"query": "冬季给蜂箱保温时还要留通风吗？", "relevant": ["cn-winter-ventilation"]},
+    {"query": "冬天巢门前的积雪和蜂尸要关注什么？", "relevant": ["cn-winter-entrance"]},
+    {"query": "中蜂越冬时能经常开箱检查吗？", "relevant": ["cn-winter-disturbance"]},
+    {"query": "早春遇到倒春寒，保温材料是否马上撤掉？", "relevant": ["cn-cold-spring"]},
+    {"query": "秋末准备越冬，只看蜂箱框数够不够可以吗？", "relevant": ["cn-winter-population"]},
+    {"query": "春季选放蜂场地为什么要看清洁水源？", "relevant": ["cn-spring-site"]},
+    {"query": "买来的花粉饲料要查哪些来源信息？", "relevant": ["cn-spring-feed-safety"]},
+    {"query": "春繁低温时育幼保温需要关注什么？", "relevant": ["cn-spring-cold-brood"]},
+    {"query": "转场前怎么排查附近作物的农药风险？", "relevant": ["cn-pesticide-site-survey"]},
+    {"query": "放蜂以后怎样和村里及种植户沟通施药？", "relevant": ["cn-pesticide-coordination"]},
+    {"query": "蜂箱门口突然大量死蜂，该保留哪些现场信息？", "relevant": ["cn-pesticide-evidence"]},
+    {"query": "附近无人机要喷药，我应该核对哪些通知？", "relevant": ["cn-drone-notification"]},
+    {"query": "嘉兴油菜花期放蜂，还要注意哪些植保风险？", "relevant": ["cn-spring-pollination-risk"]},
+    {"query": "夏季蜂箱一直暴晒，遮阴和通风怎么考虑？", "relevant": ["cn-summer-shade"]},
+    {"query": "夏天养蜂场没有水源，养护时该关注什么？", "relevant": ["cn-summer-water"]},
+    {"query": "度夏时除了高温，还需要查蜜粉源和储粮吗？", "relevant": ["cn-summer-forage"]},
+    {"query": "蜂场日常卫生，积水杂草和蜂机具怎么管理？", "relevant": ["cn-apiary-hygiene"]},
+    {"query": "中蜂蜂箱摆放，巢门前有障碍物有影响吗？", "relevant": ["cn-entrance-layout"]},
+    {"query": "南方中蜂度夏时，下雨高湿还要频繁开箱吗？", "relevant": ["cn-summer-humidity"]},
+    {"query": "蜂箱底部蜡屑和污物为什么要清理？", "relevant": ["cn-wax-debris"]},
+    {"query": "来源不明的蜂蜜能直接作为蜂群饲料吗？", "relevant": ["cn-feed-origin"]},
+    {"query": "昭平中蜂的暖冬安排能照搬到北方吗？", "relevant": ["cn-seasonal-differences"]},
+    {"query": "蜂蜜采收以后，容器和储存环境要注意什么？", "relevant": ["cn-honey-storage"]}
+  ]
+}

@@ -1,0 +1,183 @@
+[
+  {
+    "id": "start-preparation",
+    "title": "新手开始养蜂前的准备",
+    "content": "引入蜂群前，先学习蜜蜂基础知识并准备防护与蜂箱。原文月份针对美国密西西比州；中国本地蜂种、蜜源与法规应另行核实。",
+    "tags": [
+      "新手",
+      "入门",
+      "准备",
+      "开始",
+      "学习",
+      "养一箱"
+    ],
+    "section": "Preparing to Receive Honey Bees",
+    "source": "Mississippi State University Extension",
+    "url": "https://extension.msstate.edu/publications/beginning-beekeeping-mississippi",
+    "region": "美国密西西比州",
+    "review_status": "原文已核对；中文整理待本地专业复核",
+    "version": "2026-10-06"
+  },
+  {
+    "id": "protective-equipment",
+    "title": "个人防护和常用装备",
+    "content": "新手常备面罩、防护衣、手套、起刮刀和喷烟器。检查闭合与贴合，面罩不应贴脸；装备选择应结合本地蜂种。",
+    "tags": [
+      "装备",
+      "防护",
+      "面罩",
+      "手套",
+      "工具",
+      "被蜇",
+      "新手"
+    ],
+    "section": "Personal Protective Equipment",
+    "source": "Mississippi State University Extension",
+    "url": "https://extension.msstate.edu/publications/beginning-beekeeping-mississippi",
+    "region": "美国密西西比州",
+    "review_status": "原文已核对；中文整理待本地专业复核",
+    "version": "2026-10-06"
+  },
+  {
+    "id": "hive-equipment",
+    "title": "蜂箱设备和活动巢框",
+    "content": "活动巢框便于操作蜂脾。购买时核对箱体、底板、盖与巢框配套；原文介绍 Langstroth 系统，不能据此确定中蜂箱尺寸。",
+    "tags": [
+      "蜂箱",
+      "巢框",
+      "设备",
+      "购买",
+      "蜂路",
+      "尺寸"
+    ],
+    "section": "Hive Equipment Needed",
+    "source": "Mississippi State University Extension",
+    "url": "https://extension.msstate.edu/publications/beginning-beekeeping-mississippi",
+    "region": "美国密西西比州",
+    "review_status": "原文已核对；中文整理待本地专业复核",
+    "version": "2026-10-06"
+  },
+  {
+    "id": "apiary-site",
+    "title": "蜂场选址：蜜源、水源和环境",
+    "content": "选址需兼顾蜜源、水源、挡风及邻里。植被可引导飞行路径；抬高蜂箱有助减少底板潮湿。具体场地按当地规定核实。",
+    "tags": [
+      "选址",
+      "蜂场",
+      "环境",
+      "水源",
+      "蜜源",
+      "地方",
+      "准备"
+    ],
+    "section": "Prepare the Site",
+    "source": "Mississippi State University Extension",
+    "url": "https://extension.msstate.edu/publications/beginning-beekeeping-mississippi",
+    "region": "美国密西西比州",
+    "review_status": "原文已核对；中文整理待本地专业复核",
+    "version": "2026-10-06"
+  },
+  {
+    "id": "season-forage",
+    "title": "开始时间和当地蜜源",
+    "content": "蜂群生长依赖花蜜与花粉，连续花期有助食物供应。先了解当地蜜源及缺乏食物的时段，不照搬美国资料中的月份。",
+    "tags": [
+      "季节",
+      "春季",
+      "秋季",
+      "时间",
+      "开花",
+      "花粉",
+      "花蜜",
+      "蜜源"
+    ],
+    "section": "When to Start New Colonies",
+    "source": "Mississippi State University Extension",
+    "url": "https://extension.msstate.edu/publications/beginning-beekeeping-mississippi",
+    "region": "美国密西西比州",
+    "review_status": "原文已核对；中文整理待本地专业复核",
+    "version": "2026-10-06"
+  },
+  {
+    "id": "feeding-principles",
+    "title": "新蜂群的食物与饲喂评估",
+    "content": "花粉相关营养支持育幼，花蜜提供能量并支持筑脾。补充品不等同天然花粉；饲喂结合蜜源、储粮与群况评估，本条不提供统一配方。",
+    "tags": [
+      "饲喂",
+      "喂养",
+      "缺粮",
+      "储粮",
+      "食物",
+      "营养",
+      "筑脾",
+      "幼虫"
+    ],
+    "section": "Initial Feeding of a New Colony",
+    "source": "Mississippi State University Extension",
+    "url": "https://extension.msstate.edu/publications/beginning-beekeeping-mississippi",
+    "region": "美国密西西比州",
+    "review_status": "原文已核对；中文整理待本地专业复核",
+    "version": "2026-10-06"
+  },
+  {
+    "id": "site-access",
+    "title": "蜂场可达性与日常维护",
+    "content": "蜂场应便于人员和设备到达，兼顾运输通道、食物、水源、阳光、蜂箱摆放与人员安全。场地使用许可按当地规定确认。",
+    "tags": [
+      "蜂场",
+      "通道",
+      "运输",
+      "场地",
+      "维护",
+      "日常",
+      "安全"
+    ],
+    "section": "Accessibility / Safety",
+    "source": "Mississippi State University Extension",
+    "url": "https://extension.msstate.edu/publications/choosing-apiary-location",
+    "region": "美国密西西比州",
+    "review_status": "原文页面及小节已核对；中文整理待本地专业复核",
+    "version": "2026-10-06"
+  },
+  {
+    "id": "inspection-context",
+    "title": "检查前的信息整理",
+    "content": "咨询开箱检查时，先记录检查目的、最近检查时间、所见异常、蜂种和蜂群状态，并补充现场天气。天气预报只能提供环境参考，不能证明蜂群健康，也不能单独决定是否开箱。此条是项目为咨询流程编写的信息清单，不是经过专业验证的操作指南；当前知识库没有适用于所有地区的检查温度阈值。",
+    "tags": [
+      "检查",
+      "开箱",
+      "天气",
+      "明天",
+      "记录",
+      "复查",
+      "巡检"
+    ],
+    "section": "项目咨询信息清单",
+    "source": "蜂伴项目整理",
+    "url": "",
+    "region": "咨询流程说明",
+    "review_status": "项目流程材料，待专业复核",
+    "version": "2026-10-06"
+  },
+  {
+    "id": "followup-records",
+    "title": "执行反馈和复查记录",
+    "content": "回访时，把实际执行了什么、何时执行、看到了什么以及哪些任务尚未完成分开记录。用户报告完成任务，不代表蜂群已经得到验证的改善。历史建议是建议，不能当作新的观察事实。这是本项目的记录方法，不是养蜂疗效判断依据。",
+    "tags": [
+      "回访",
+      "反馈",
+      "做完",
+      "上次",
+      "计划",
+      "待办",
+      "复查",
+      "记录"
+    ],
+    "section": "项目记录规范",
+    "source": "蜂伴项目整理",
+    "url": "",
+    "region": "咨询流程说明",
+    "review_status": "项目流程材料",
+    "version": "2026-10-06"
+  }
+]

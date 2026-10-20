@@ -1,0 +1,34 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: beeguide
+      POSTGRES_PASSWORD: beeguide
+      POSTGRES_DB: beeguide
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U beeguide -d beeguide']
+      interval: 5s
+      timeout: 3s
+      retries: 15
+  app:
+    build: .
+    ports: ['127.0.0.1:8008:8008']
+    environment:
+      DATABASE_URL: postgresql+psycopg://beeguide:beeguide@db:5432/beeguide
+      MODEL_API_KEY: ${MODEL_API_KEY:-}
+      MODEL_BASE_URL: ${MODEL_BASE_URL:-https://dashscope.aliyuncs.com/compatible-mode/v1}
+      MODEL_NAME: ${MODEL_NAME:-qwen-plus}
+      EMBEDDING_ENABLED: ${EMBEDDING_ENABLED:-false}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-text-embedding-v3}
+      EMBEDDING_DIMENSIONS: ${EMBEDDING_DIMENSIONS:-1024}
+      WEATHER_ENABLED: ${WEATHER_ENABLED:-true}
+    volumes:
+      - appdata:/app/data
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  pgdata:
+  appdata:

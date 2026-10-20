@@ -1,0 +1,83 @@
+{
+  "description": "本次新增国内资料的来源登记；短摘要仅覆盖指定小节，不代表采纳原文全部操作建议。",
+  "sources": [
+    {
+      "id": "cn-linyi-winter-2025",
+      "title": "中华蜜蜂越冬期饲养管理技术指导建议",
+      "source": "临沂市农业农村局",
+      "url": "https://nyj.linyi.gov.cn/info/1036/50442.htm",
+      "region": "山东临沂及沂蒙山区",
+      "supported_species": ["中蜂"],
+      "published_at": "2025-11-21",
+      "checked_at": "2026-10-10",
+      "version": "2026-10-10",
+      "review_status": "政府公开原文已核对；短摘要待专业复核",
+      "applicability": "当地中蜂越冬参考；月份、群势、温度及具体操作不能直接推广到其他地区。"
+    },
+    {
+      "id": "cn-chengde-spring-2025",
+      "title": "春季如何管理好蜂群",
+      "source": "承德市农业农村局（转载中国农科新闻网）",
+      "url": "https://nyncj.chengde.gov.cn/art/2025/4/7/art_667_1061383.html",
+      "region": "河北承德发布；原文未指定适用蜂种",
+      "supported_species": ["原文未指定"],
+      "published_at": "2025-04-07",
+      "checked_at": "2026-10-10",
+      "version": "2026-10-10",
+      "review_status": "政府转载原文已核对；短摘要待专业复核",
+      "applicability": "春季场地、饲料来源与低温风险参考；未收录消毒配方和预防性用药建议。"
+    },
+    {
+      "id": "cn-shandong-pesticide-2026",
+      "title": "春季防范蜜蜂农药中毒指导意见",
+      "source": "山东省畜牧兽医局（山东省畜牧总站）",
+      "url": "http://xm.shandong.gov.cn/art/2026/3/24/art_105215_10351447.html",
+      "region": "山东省",
+      "supported_species": ["蜜蜂；原文未限定中蜂或意蜂"],
+      "published_at": "2026-03-24",
+      "checked_at": "2026-10-10",
+      "version": "2026-10-10",
+      "review_status": "政府公开原文已核对；短摘要待专业复核",
+      "applicability": "授粉期农药风险预防与沟通参考；疑似异常不构成诊断，具体应急处置由当地专业人员指导。"
+    },
+    {
+      "id": "cn-jiaxing-pesticide-2026",
+      "title": "如何防范春季蜜蜂农药中毒",
+      "source": "嘉兴市农业农村局（嘉兴三农）",
+      "url": "https://nyjjj.jiaxing.gov.cn/col/col1523240/art/2026/art_075c827bd98a4a6ba58b3df040ff472a.html",
+      "region": "浙江嘉兴",
+      "supported_species": ["蜜蜂；原文未限定中蜂或意蜂"],
+      "published_at": "2026-03-27",
+      "checked_at": "2026-10-10",
+      "version": "2026-10-10",
+      "review_status": "政府公开原文已核对；短摘要待专业复核",
+      "applicability": "嘉兴春季授粉与植保作业场景；其他地区公告和告知要求须向当地部门核实。"
+    },
+    {
+      "id": "cn-beijing-summer-2020",
+      "title": "夏季蜂群的饲养管理",
+      "source": "北京市园林绿化局（转载蜂业科技）",
+      "url": "https://yllhj.beijing.gov.cn/ztxx/bjssylcpzlaqjdgl/jsyd/cf/202006/t20200612_1923855.shtml",
+      "region": "北京发布；具体生产条件见原文",
+      "supported_species": ["原文未指定；含继箱生产场景"],
+      "published_at": "2020-06-12",
+      "checked_at": "2026-10-10",
+      "version": "2026-10-10",
+      "review_status": "政府转载原文已核对；较早资料，短摘要待专业复核",
+      "applicability": "仅整理遮阴、水源与蜜粉源小节；不据此规定中蜂箱结构、疾病原因或统一取蜜频率。"
+    },
+    {
+      "id": "cn-zhaoping-management-2017",
+      "title": "昭平县中蜂养殖管理技术",
+      "source": "昭平县人民政府门户网站（农业农村局栏目）",
+      "url": "http://www.gxzp.gov.cn/zwgk/xxgkml/zpxzfzcbm/zpxnyncj/qtzyxxgk_69898/t4132324.shtml",
+      "region": "广西贺州昭平县",
+      "supported_species": ["中蜂"],
+      "published_at": "2017-06-19",
+      "checked_at": "2026-10-10",
+      "version": "2026-10-10",
+      "review_status": "政府公开原文已核对；较早地方资料，短摘要待专业复核",
+      "applicability": "当地暖冬和蜜源条件参考；未收录用药、淘汰蜂群、转场距离及饲喂配方，不适用于全国统一季节安排。"
+    }
+  ]
+}

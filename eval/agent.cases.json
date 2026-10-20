@@ -1,0 +1,10 @@
+{
+  "version": "2026-10-11",
+  "scope": "项目自编的四条功能对照题；非独立保留集，不评判领域准确率。",
+  "cases": [
+    {"id": "protective", "question": "防护面罩在养蜂时有什么作用？请根据资料简要回答。", "stage": "preparing", "required_tools": ["search_beekeeping_knowledge"], "review_expected": false},
+    {"id": "plan", "question": "我在杭州，准备开始养中蜂。请根据资料列出三项引入蜂群前的准备任务，不安排用药和病害诊断。", "stage": "preparing", "required_tools": ["search_beekeeping_knowledge"], "review_expected": true},
+    {"id": "weather", "question": "我在杭州已有中蜂，明天天气如何，开箱检查前需要核对什么？请区分预报和蜂群观察。", "stage": "keeping", "required_tools": ["search_beekeeping_knowledge", "get_weather"], "review_expected": true},
+    {"id": "followup", "question": "我已完成上次核对面罩和手套的任务，还没有购买蜂群。请读取我的执行反馈，安排下一步，不重复已完成的装备核对。", "stage": "preparing", "required_tools": ["search_beekeeping_knowledge", "get_recent_tasks"], "review_expected": true}
+  ]
+}
