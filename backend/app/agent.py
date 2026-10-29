@@ -206,6 +206,7 @@ def build_graph(checkpointer, retriever):
         step('generate', '养蜂顾问：整理有依据的建议与任务草稿')
         started = time.perf_counter()
         mode, warning, usage = 'local_evidence', state.get('warning', ''), state.get('usage', {})
+        failure_reason = ''
         advice = local_advice(state)
         generation_usage = {}
         requires_review = state.get('architecture') == 'multi' and (state['route']['intent'] != 'general' or state['route']['need_weather'])
@@ -231,6 +232,9 @@ def build_graph(checkpointer, retriever):
                 generation_usage = getattr(error, 'usage', {})
                 usage = add_usage(usage, generation_usage)
                 mode, warning = 'model_fallback', '模型调用或结构校验失败，本次仅展示知识资料整理。'
+                failure_reason = getattr(error, 'reason', type(error).__name__)
+                if failure_reason == 'context_budget_exceeded':
+                    warning = '本次资料较长，无法在模型输入限制内完整处理，仅展示资料整理。'
         if mode == 'live_model' and not valid_citations(advice, state):
             warning = '模型返回了无效引用或未引用资料，本次已回退为资料整理。'
             advice, mode = local_advice(state), 'model_fallback'
@@ -239,7 +243,7 @@ def build_graph(checkpointer, retriever):
         return {'candidate': advice, 'draft_mode': mode, 'warning': warning, 'usage': usage,
                 'requires_review': requires_review and mode == 'live_model', 'revision_count': 0,
                 'review': {'status': 'pending' if requires_review and mode == 'live_model' else 'not_required', 'issues': []},
-                'trace': traced(state, 'generate_advice', {'agent': 'advisor', 'summary': '顾问已生成草稿' if mode == 'live_model' else '使用资料整理', 'success': mode == 'live_model', 'mode': mode, 'usage': generation_usage}, started)}
+                'trace': traced(state, 'generate_advice', {'agent': 'advisor', 'summary': '顾问已生成草稿' if mode == 'live_model' else '使用资料整理', 'success': mode == 'live_model', 'mode': mode, 'usage': generation_usage, 'failure_reason': failure_reason}, started)}
 
     async def review(state):
         step('review', '审查员：检查引用依据、适用条件与重复任务')
